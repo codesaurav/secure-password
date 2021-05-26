@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="appTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/teal_700</item>
+        <item name="colorButtonNormal">@color/teal_700</item>
+    </style>
+</resources>
