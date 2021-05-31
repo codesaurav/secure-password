@@ -1,4 +1,4 @@
-# secureApp
+# Secure Application
 
 The app name is Secure.
 This app generates a password using AES Encryption.
