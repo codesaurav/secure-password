@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
              * this the code to copy the password automatically on to the clipboard
              */
             ClipboardManager clipboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
-            ClipData clip = ClipData.newPlainText("securePassword", encryptedString);
+            ClipData clip = ClipData.newPlainText("securePassword", encryptedString.substring(0, passwordLength));
             clipboard.setPrimaryClip(clip);
             Toast.makeText(this, "Copied to Clipboard", Toast.LENGTH_SHORT).show();
         }
